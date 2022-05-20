@@ -1,0 +1,17 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+               <xs:element name="employeeTable">
+               <xs:complexType>
+                              <xs:element name="employee">
+                                             <xs:complexType>
+                                                            <xs:sequence>
+                                                                           <xs:element name="ID" type="xs:positiveInteger"></xs:element>
+                                                                           <xs:element name="Name" type="xs:string"></xs:element>
+                                                                           <xs:element name="Salary" type="xs:positiveInteger"></xs:element>
+                                                                           <xs:element name="JoiningDate" type="xs:date"></xs:element>
+                                                                           <xs:element name="Position" type="xs:string"></xs:element>
+                                                            </xs:sequence>
+                                             </xs:complexType>
+                              </xs:element>
+               </xs:complexType>
+</xs:element>
+</xs:schema>

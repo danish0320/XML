@@ -1,0 +1,39 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+               <xs:element name="Bank">
+                              <xs:complexType>
+                                             <xs:sequence>
+                                                            <xs:element name="employeeName">
+                                                                           <xs:complexType>
+                                                                                          <xs:restriction base="xs:string">
+                                                                                                         <xs:pattern value="/^[A-Za-z]+$/"/>
+                                                                                          </xs:restriction>
+                                                                           </xs:complexType>
+                                                            </xs:element>
+                                                            <xs:element name="password">
+                                                                           <xs:complexType>
+                                                                                          <xs:restriction base="xs:integer"></xs:restriction>
+                                                                                          <xs:minLength value="6"></xs:minLength>
+
+                                                                           </xs:complexType>
+                                                            </xs:element>
+                                                            <xs:element name="age">
+                                                                           <xs:complexType>
+                                                                                          <xs:restriction base="xs:integer"></xs:restriction>
+                                                                                          <xs:minInclusive value="18"></xs:minInclusive>
+
+                                                                           </xs:complexType>
+                                                            </xs:element>
+                                                            <xs:element name="city">
+                                                                           <xs:complexType>
+                                                                                          <xs:restriction base="xs:string">
+                                                                                                         <xs:enumeration>Karachi</xs:enumeration>
+                                                                                                         <xs:enumeration>Lahore</xs:enumeration>
+                                                                                                         <xs:enumeration>Islamabad</xs:enumeration>
+                                                                                          </xs:restriction>
+
+                                                                           </xs:complexType>
+                                                            </xs:element>
+                                             </xs:sequence>
+                              </xs:complexType>
+               </xs:element>
+</xs:schema>

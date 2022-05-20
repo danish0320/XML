@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="2.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<Bank>
+               <employeeName>Ali</employeeName>
+               <password>1234</password>
+               <age>23</age>
+               <city>Karachi</city>
+</Bank>

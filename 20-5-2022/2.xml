@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="2.xsd" type="application/xml" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<E>
+               <Employee>
+                 <EName>Ali</EName>
+                 <Empno>AB</Empno>
+                 <Designation>Faculty member</Designation>
+                 <Salary>10000</Salary>
+                 <CNIC>42101-9854628-9</CNIC>
+               </Employee>
+             </E>

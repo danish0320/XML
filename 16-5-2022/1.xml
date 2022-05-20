@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE employeeTable [
+               <!ELEMENT employeeTable (employee)*>
+               <!ELEMENT employee (ID,Name,Salary,JoiningDate,Position)>
+               <!ELEMENT ID (#PCDATA)>
+               <!ELEMENT Name (#PCDATA)>
+               <!ELEMENT Salary (#PCDATA)>
+               <!ELEMENT JoiningDate (#PCDATA)>
+               <!ELEMENT Position (#PCDATA)>
+]>
+<employeeTable>
+               <employee>
+                              <ID>10234</ID>
+                              <Name>Salman</Name>
+                              <Salary>50000</Salary>
+                              <JoiningDate>2-2-2015</JoiningDate>
+                              <Position>Manager</Position>
+               </employee>
+               <employee>
+                              <ID>10235</ID>
+                              <Name>Ibrahim</Name>
+                              <Salary>200000</Salary>
+                              <JoiningDate>3-5-1990</JoiningDate>
+                              <Position>CEO</Position>
+               </employee>
+               <employee>
+                              <ID>10236</ID>
+                              <Name>Asim</Name>
+                              <Salary>50000</Salary>
+                              <JoiningDate>4-4-2017</JoiningDate>
+                              <Position>Manager</Position>
+               </employee>
+               <employee>
+                              <ID>10237</ID>
+                              <Name>Ghazanfar</Name>
+                              <Salary>50000</Salary>
+                              <JoiningDate>8-10-2015</JoiningDate>
+                              <Position>Manager</Position>
+               </employee>
+               <employee>
+                              <ID>10238</ID>
+                              <Name>Saima</Name>
+                              <Salary>100000</Salary>
+                              <JoiningDate>4-5-2000</JoiningDate>
+                              <Position>MD</Position>
+               </employee>
+
+</employeeTable>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<World>
+<Pakistan>
+<City>Karachi</City>
+<City>Lahore</City>
+<City>Islamabad</City>
+</Pakistan>
+
+<India>
+<City>Dehli</City>
+<City>Lucknow</City>
+<City>Allahabad</City>
+</India>
+
+</World>
