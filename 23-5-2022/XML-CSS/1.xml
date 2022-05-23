@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet href="1.css" type="text/css"?>
+<S>
+<Student>
+               <Name gender="male">Ali</Name>
+               <Enroll>ABC123</Enroll>
+               <Semester book="XML"></Semester>
+               <Module>DISM</Module>
+               <age>23</age>
+ </Student>
+ <Student>
+               <Name gender="male">Ali</Name>
+               <Enroll>ABC123</Enroll>
+               <Semester book="XML"></Semester>
+               <Module>DISM</Module>
+               <age>23</age>
+ </Student>
+ <Student>
+               <Name gender="male">Ali</Name>
+               <Enroll>ABC123</Enroll>
+               <Semester book="XML"></Semester>
+               <Module>DISM</Module>
+               <age>23</age>
+ </Student>
+</S>
